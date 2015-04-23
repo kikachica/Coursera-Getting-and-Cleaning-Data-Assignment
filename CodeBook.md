@@ -22,8 +22,8 @@ First, the training and test data sets were combined in one big data set:
 * x_data (number) contains all measurments of all signals from the original experiment
 * y_data contains codes for all activities (it is a number 1 to 6 each representing an activity:
 		1 = WALKING
- 		2 = WALKING_UPSTAIRS
-		3 = WALKING_DOWNSTAIRS
+ 		2 = WALKING UPSTAIRS
+		3 = WALKING DOWNSTAIRS
 		4 = SITTING
 		5 = STANDING
 		6 = LAYING)
@@ -31,9 +31,9 @@ First, the training and test data sets were combined in one big data set:
 
 After that, the codes for activities are changed to actual names of the activities.
 
-I have changed the column names of the variables containing mesurements (all variables except “Subject” and “Activity”) because they contained characters that are not allowed as column names.
+I have changed the column names of the variables containing mesurements (all variables except â€œSubjectâ€ and â€œActivityâ€) because they contained characters that are not allowed as column names.
 
-The tidy data set is created extracting only columns containing mean and standard deviation measurements and changing column names to be more readable. Names are very similar to original names, changing only “mean()” into “mean” and “std()” into “StdDev”.
+The tidy data set is created extracting only columns containing mean and standard deviation measurements and changing column names to be more readable. Names are very similar to original names, changing only â€œmean()â€ into â€œmeanâ€ and â€œstd()â€ into â€œStdDevâ€.
 
 In the end I included write.table() to create .txt file for the tidy data.
 # summarizing the data
