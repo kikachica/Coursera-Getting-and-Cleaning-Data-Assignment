@@ -62,12 +62,13 @@ valid_column_names <- make.names(names=names(big_data), unique=TRUE, allow_ = TR
 names(big_data) <- valid_column_names
 
 #Extracts only the measurements on the mean and standard deviation for each measurement
-extracted_data<-select(big_data, contains("Subject"), contains("Activity"), contains("mean.."), contains("std.."))
+extracted_data<-select(big_data, contains("Subject"), contains("Activity"), contains("mean.."), contains("std.."), -contains("angle"))
 #arranges table per subject and activity name alphabeticaly
 tidy_data <- arrange(extracted_data, Subject, Activity) 
 
 #renaming column names
 names(tidy_data) <- gsub("mean...", "mean", names(tidy_data))
+names(tidy_data) <- gsub("mean..", "mean", names(tidy_data))
 names(tidy_data) <- gsub("std...", "StdDev", names(tidy_data))
 names(tidy_data) <- gsub("std..", "StdDev", names(tidy_data))
 names(tidy_data) <- gsub("X", "-X", names(tidy_data))
