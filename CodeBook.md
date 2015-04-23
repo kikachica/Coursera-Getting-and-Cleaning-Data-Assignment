@@ -54,7 +54,6 @@ The Subject variable rappresents a group of 30 volunteers within an age bracket 
 The Activity is a character variable rappresenting the activity each subject performed (Laying, Sitting, Standing, Walking, Walking downstairs, Walking upstairs) wearing a smartphone (Samsung Galaxy S II) on the waist
 
 The following wariables are numbers and represent mesurments as described in the original data set:
-:
 
 tBodyAcc.mean-X
 tBodyAcc.mean-Y
