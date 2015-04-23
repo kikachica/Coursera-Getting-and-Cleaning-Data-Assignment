@@ -1,6 +1,6 @@
 # The Code Book
 
-The tidy data set consists of a subset of the fields from the "Human Activity Recognition Using Smartphones" data set. 
+The tidy_data.txt set consists of a subset of the fields from the "Human Activity Recognition Using Smartphones" data set. 
 
 # Original Experiment
 
