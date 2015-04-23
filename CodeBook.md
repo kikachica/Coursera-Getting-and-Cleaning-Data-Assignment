@@ -36,7 +36,8 @@ I have changed the column names of the variables containing mesurements (all var
 The tidy data set is created extracting only columns containing mean and standard deviation measurements and changing column names to be more readable. Names are very similar to original names, changing only “mean()” into “mean” and “std()” into “StdDev”.
 
 In the end I included write.table() to create .txt file for the tidy data.
-# summarizing the data
+
+# Summarizing the data
 
 The summarized.txt contains the average of each variable for each activity and each subject.
 This file is generated from the run_analysis.R code with write.table().
