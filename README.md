@@ -1,7 +1,4 @@
 # Coursera Getting and Cleaning Data Assignment
-Tidies a data set
-
-codebook.md describes the specific details of variables, values, and units in the tidy data set. 
 
 The tidy_data.txt file in this directory is a tidy subset of the data provided in the Human Activity Recognition Using Smartphones Data Set. 
 The source data is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and
